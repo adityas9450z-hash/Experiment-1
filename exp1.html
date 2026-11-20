@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Course Curriculum</title>
+
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            background-color: white;
+            font-family: "Times New Roman", Times, serif;
+            color: black;
+        }
+
+        .container {
+            width: 88%;
+            margin: 40px auto;
+            padding: 20px 10px;
+            border: 2px solid black;
+            box-sizing: border-box;
+        }
+
+        h2 {
+            margin-top: 0;
+            margin-bottom: 18px;
+            font-size: 25px;
+        }
+
+        h3 {
+            margin-top: 18px;
+            margin-bottom: 12px;
+            font-size: 24px;
+        }
+
+        p {
+            font-size: 17px;
+            margin: 0 0 14px 0;
+        }
+
+        ol,
+        ul {
+            font-size: 17px;
+            margin-top: 0;
+            margin-bottom: 16px;
+        }
+
+        li {
+            margin: 0;
+        }
+
+        dl {
+            font-size: 17px;
+            margin-top: 0;
+            margin-bottom: 16px;
+        }
+
+        dt {
+            font-weight: bold;
+            margin-top: 8px;
+        }
+
+        dd {
+            margin-left: 42px;
+        }
+
+        .nested-list {
+            margin-top: 5px;
+            margin-bottom: 5px;
+        }
+
+        .mixed-list {
+            margin-top: 0;
+        }
+
+        .mixed-list > li {
+            margin-bottom: 2px;
+        }
+
+        .special {
+            font-size: 17px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="container">
+
+        <!-- Introduction -->
+        <h2>Introduction</h2>
+
+        <p>
+            Welcome to the <b>Course Curriculum</b>. This page demonstrates the use of
+            <i>HTML formatting</i>, lists, and special characters such as
+            &copy;, &lt;, &gt;.
+        </p>
+
+
+        <!-- Ordered List -->
+        <h3>Semester 1 Subjects (Ordered List)</h3>
+
+        <ol>
+            <li>Mathematics I</li>
+            <li>Computer Fundamentals</li>
+            <li>Programming in C</li>
+            <li>Electronics Basics</li>
+        </ol>
+
+
+        <!-- Unordered List -->
+        <h3>Programming Languages (Unordered List)</h3>
+
+        <ul>
+            <li>C</li>
+            <li>Java</li>
+            <li>Python</li>
+            <li>JavaScript</li>
+        </ul>
+
+
+        <!-- Description List -->
+        <h3>Course Description (Description List)</h3>
+
+        <dl>
+            <dt>C Programming</dt>
+            <dd>
+                Learn basics of C language including loops, arrays, and functions.
+            </dd>
+
+            <dt>Java</dt>
+            <dd>
+                Introduction to Object-Oriented Programming concepts.
+            </dd>
+        </dl>
+
+
+        <!-- Nested List -->
+        <h3>Course Modules (Nested List)</h3>
+
+        <ol>
+            <li>
+                Module 1: Basics
+
+                <ul class="nested-list">
+                    <li>Introduction</li>
+                    <li>History of Computers</li>
+                </ul>
+            </li>
+
+            <li>
+                Module 2: Programming
+
+                <ul class="nested-list">
+                    <li>Variables &amp; Data Types</li>
+                    <li>Control Statements</li>
+                </ul>
+            </li>
+        </ol>
+
+
+        <!-- Mixed List -->
+        <h3>Project Work (Mixed List)</h3>
+
+        <ul class="mixed-list">
+
+            <li>
+                Web Development
+
+                <ol>
+                    <li>HTML</li>
+                    <li>CSS</li>
+                    <li>JavaScript</li>
+                </ol>
+            </li>
+
+            <li>
+                Database
+
+                <ol type="A">
+                    <li>MySQL</li>
+                    <li>MongoDB</li>
+                </ol>
+            </li>
+
+        </ul>
+
+    </div>
+
+</body>
+</html>
